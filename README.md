@@ -1,2 +1,77 @@
-# fyp-irrigation_model_training
-Random Forest-based irrigation prediction model trained on real-time IoT sensor data for automated greenhouse control.
+# 💧 fyp-irrigation_model_training
+
+A machine learning-based irrigation control system that uses a Random Forest model trained on real-time environmental data collected from IoT sensors. The system predicts optimal irrigation actions to automate greenhouse operations efficiently.
+
+---
+
+## 🌿 Project Description
+
+This project focuses on intelligent irrigation management using machine learning. Environmental data collected from sensors is used to train a Random Forest model, which predicts when to activate irrigation systems such as water pumps and ventilation fans. The goal is to optimize water usage, maintain ideal plant conditions, and enable data-driven greenhouse automation.
+
+---
+
+## ⚙️ Hardware Setup
+
+The data used for training was collected using:
+
+- 🍓 **Raspberry Pi**
+- 🌡️ Temperature & Humidity Sensor
+- 💧 Water Pump
+- 🌬️ Ventilation Fan
+
+These components work together to monitor environmental conditions and control irrigation in real time.
+
+---
+
+## 📊 Dataset
+
+- Data was **manually collected** from real-time greenhouse conditions  
+- Includes environmental and actuator-related features  
+- Used for supervised learning  
+
+---
+
+## 🧠 Model
+
+- Algorithm: **Random Forest Regressor / Classifier**
+- Purpose: Predict irrigation requirements and actuator control  
+- Framework: **Scikit-learn**
+
+---
+
+## 📈 Features Used
+
+The model is trained on environmental and system features such as:
+
+- Temperature  
+- Humidity  
+- Soil Moisture (if included)  
+- Time-based features (if applicable)  
+- Actuator states (pump/fan status)
+
+*(Refer to the notebook for exact feature engineering details)*
+
+---
+
+## 🔄 Workflow
+
+1. Collect real-time sensor data using Raspberry Pi  
+2. Preprocess and clean the dataset  
+3. Perform feature engineering  
+4. Train Random Forest model  
+5. Evaluate model performance  
+6. Use model predictions to control:
+   - Water pump  
+   - Ventilation fan  
+
+---
+
+## 📦 requirements.txt
+
+```txt
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
