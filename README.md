@@ -45,11 +45,9 @@ The model is trained on environmental and system features such as:
 
 - Temperature  
 - Humidity  
-- Soil Moisture (if included)  
-- Time-based features (if applicable)  
+- Soil Moisture  
+- Time-based features (moisture dry rate)  
 - Actuator states (pump/fan status)
-
-*(Refer to the notebook for exact feature engineering details)*
 
 ---
 
