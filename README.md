@@ -4,7 +4,7 @@ A machine learning-based irrigation control system that uses a Random Forest mod
 
 ---
 
-## 🌿 Project Description
+##  Project Description
 
 This project focuses on intelligent irrigation management using machine learning. Environmental data collected from sensors is used to train a Random Forest model, which predicts when to activate irrigation systems such as water pumps and ventilation fans. The goal is to optimize water usage, maintain ideal plant conditions, and enable data-driven greenhouse automation.
 
@@ -14,10 +14,10 @@ This project focuses on intelligent irrigation management using machine learning
 
 The data used for training was collected using:
 
-- 🍓 **Raspberry Pi**
-- 🌡️ Temperature & Humidity Sensor
-- 💧 Water Pump
-- 🌬️ Ventilation Fan
+-  **Raspberry Pi**
+-  Temperature & Humidity Sensor
+-  Water Pump
+-  Ventilation Fan
 
 These components work together to monitor environmental conditions and control irrigation in real time.
 
@@ -39,7 +39,7 @@ These components work together to monitor environmental conditions and control i
 
 ---
 
-## 📈 Features Used
+##  Features Used
 
 The model is trained on environmental and system features such as:
 
@@ -51,7 +51,7 @@ The model is trained on environmental and system features such as:
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 1. Collect real-time sensor data using Raspberry Pi  
 2. Preprocess and clean the dataset  
@@ -63,6 +63,24 @@ The model is trained on environmental and system features such as:
    - Ventilation fan  
 
 ---
+
+## Results
+
+## Predicted vs Actual Pump Runtime
+<p align="center">
+  <img src="assets/i1.png" width="700"/>
+</p>
+
+## Predicted vs Actual Next Irrigation Time
+<p align="center">
+  <img src="assets/i2.png" width="700"/>
+</p>
+
+## Performance Metrices
+<p align="center">
+  <img src="assets/i3.png" width="700"/>
+</p>
+
 
 ## 📦 requirements.txt
 
